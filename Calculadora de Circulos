@@ -4,7 +4,7 @@ if opção == 4:
     A = int(input('Me diga outra informação do circulo voce pode me dar: \n Diametro:2 \n Raio:3 \n Circunferencia:4 \n Resposta: '))
     if A == 4:
         C = float(input('Digite o valor da Circunferencia: '))
-        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2'))
+        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
         if Opção1 == 2:
             Area1 = C * C
             PI4 = 4 * math.pi
@@ -18,7 +18,7 @@ if opção == 4:
             print('o valor da area do circulo é aproximademente: {:.2f}'.format(Area))
     if A == 3:
         R = float(input('Digite o valor do raio: '))
-        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2'))
+        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
         if Opção1 == 2:
             Area = math.pi * (R * R)
             print('o valor da Area do circulo é aproximadamente: {:.2f}'.format(Area))
@@ -28,7 +28,7 @@ if opção == 4:
             print('o valor da Area do circulo é aproximadamente: {:.2f}'.format(Area))
     if A == 2:
         D = float(input('Digite o Diametro: '))
-        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2'))
+        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
         if Opção1 == 2:
             R = D / 2
             Area = math.pi * (R * R)
@@ -42,7 +42,7 @@ if opção == 3:
     A = int(input('Me diga outra informação do circulo voce pode me dar: \n Diametro:2 \n Raio:3 \n Area do Circulo:4 \n Resposta: '))
     if A == 3:
         R = float(input('digite o valor do raio: '))
-        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2'))
+        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
         if Opção1 == 2:
             C = 2 * math.pi * R
             print('o valor do Comprimento é aproximadamente: {:.2f}'.format(C))
@@ -52,7 +52,7 @@ if opção == 3:
             print('o valor do Comprimento é aproximadamente: {:.2f}'.format(C))
     if A == 2:
         D = float(input('digite o diametro: '))
-        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2'))
+        Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
         if Opção1 == 2:
             C = math.pi * D
             print('o valor do Comprimento é aproximadamente: {:.2f}'.format(C))
@@ -96,7 +96,7 @@ if opção == 2:
     A = int(input('Me diga outra informação do circulo voce pode me dar: \n Diametro:2 \n Circunferencia:3 \n Area do Circulo:4 \n Resposta: '))
     if A == 4:
         AC = float(input('Digite a area da Circunferencia: '))
-        Opção3 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2'))
+        Opção3 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
         if Opção3 == 1:
             PI = float(input('digite o valor de pi: '))
             RaioA = AC / PI
@@ -108,7 +108,7 @@ if opção == 2:
             print ('o valor do Raio é aproximademente: {:.2f}'.format(RaioF))
     if A == 3:
         C = float(input('Digite a Circunferencia: '))
-        Opção2 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2'))
+        Opção2 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
         if Opção2 == 1:
             PI = float(input('digite o valor de pi: '))
             PI2 = 2 * PI
@@ -122,16 +122,3 @@ if opção == 2:
         D = float(input('Digite o diametro: '))
         R = D / 2
         print ('o valor do Raio equivale a: {:.2}'.format(R))
-
-
-
-
-
-
-
-
-
-
-
-
-
