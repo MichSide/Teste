@@ -40,6 +40,22 @@ if opção == 4:
             print('o valor da Area do circulo é aproximadamente: {:.2f}'.format(Area))
 if opção == 3:
     A = int(input('Me diga outra informação do circulo voce pode me dar: \n Diametro:2 \n Raio:3 \n Area do Circulo:4 \n Resposta: '))
+    if A == 4:
+        AC = float(input('digite o valor da area do circulo: '))
+        Opção2 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
+        if Opção2 == 2:
+            AreaPi = AC / math.pi
+            R = AreaPi ** 0.5
+            D = R * 2
+            C = D * PI
+            print('o valor da circunferencia é aproximadamente: {:.2f}'.format(C))
+        if Opção2 == 1:
+            PI = float(input('digite o valor de pi: '))
+            AreaPi = AC / PI
+            R = AreaPi ** 0.5
+            D = R * 2
+            C = D * PI
+            print('o valor da circunferencia é aproximadamente: {:.2f}'.format(C))
     if A == 3:
         R = float(input('digite o valor do raio: '))
         Opção1 = int(input('foi dado o valor de pi? \n Sim:1 \n Não:2 \n Resposta: '))
